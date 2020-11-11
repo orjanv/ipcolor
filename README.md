@@ -1,7 +1,8 @@
 # ipcolor
 Converting you IP address to rgb color values using python and flask
 
+<p float="left" align="middle">
+  <img src="browsershot.png" height="100" />
+  <img src="browsershot2.png" height="100" />
+</p>
 
-Example 1             |  Example 2
-:-------------------------:|:-------------------------:
-![alt text](browsershot.png "Browser shot") | ![alt text](browsershot2.png "Browser shot 2")
