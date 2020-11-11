@@ -34,9 +34,9 @@ def ipcolor():
             img = Image.new('RGB', size, '#'+hexcolor)  
             poly = ImageDraw.Draw(img)   
             poly.polygon(qdata, fill ="#ffffff")
-            
+
             rndstr = ''.join(choice(ascii_lowercase) for i in range(12))
-            img.save(f"static/polygon-{rndstr}.png")
+            img.save("static/polygon-%s.png" % rndstr)
 
             return render_template('index.html', ipcolor=ipcolor, rndstr=rndstr, hexcolor=hexcolor, ip=IPADDRESS)
         except Exception as e: print(e)
