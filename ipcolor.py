@@ -3,9 +3,6 @@ from PIL import Image, ImageDraw
 from random import choice
 from string import ascii_lowercase
 
-print(''.join(choice(ascii_lowercase) for i in range(12)))
-
-
 app = Flask(__name__)
 
 def iptocolor(ipaddr):
