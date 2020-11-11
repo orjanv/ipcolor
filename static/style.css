@@ -5,8 +5,7 @@
 }
 
 body {
-    color: #ffffff; // #414141;
-    font-size: 18px;
+    color: #ffffff;
     font-family: 'Droid Serif', serif;
 }
 
@@ -21,9 +20,16 @@ body {
 }
 
 h2 {
-    font-size: 9vw;
+    font-size: 10vw;
 }
 
 p {
-    font-size: 3.5vw;
+    font-size: 4vw;
+    padding-top:1vh;
+}
+
+img {
+    padding-top:3vh;
+    width:30vw;
+    max-width: 30%;
 }
